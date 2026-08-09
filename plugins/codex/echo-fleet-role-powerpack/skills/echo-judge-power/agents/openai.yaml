@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Judge Power"
+  short_description: "Independently certify builds with hard evidence"
+  default_prompt: "Use $echo-judge-power to independently certify this build against its acceptance, security, and release gates."

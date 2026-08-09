@@ -1,0 +1,23 @@
+{
+  "name": "echoomegaprime",
+  "interface": {
+    "displayName": "ECHO OMEGA PRIME"
+  },
+  "plugins": [
+    {
+      "name": "echo-fleet-role-powerpack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/echo-fleet-role-powerpack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "ECHO Fleet Roles"
+      }
+    }
+  ]
+}

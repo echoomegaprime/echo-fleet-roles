@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Product Manager Power"
+  short_description: "Turn customer evidence into measurable product value"
+  default_prompt: "Use $echo-product-manager-power to define the product outcome, evidence, priorities, metrics, and delivery contract."

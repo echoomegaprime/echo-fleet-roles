@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Curator Power"
+  short_description: "Consolidate knowledge into reusable memory"
+  default_prompt: "Use $echo-curator-power to execute this role end to end with live ECHO state and proof."

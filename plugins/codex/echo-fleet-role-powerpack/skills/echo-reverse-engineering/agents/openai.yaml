@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Reverse Engineering"
+  short_description: "Analyze and rebuild authorized software systems"
+  default_prompt: "Use $echo-reverse-engineering to analyze this authorized target and build a clean-room ECHO replacement with verified upgrades."

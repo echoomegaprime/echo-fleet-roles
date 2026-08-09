@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Quartermaster Power"
+  short_description: "Equip the fleet with reliable tools and plugins"
+  default_prompt: "Use $echo-quartermaster-power to execute this role end to end with live ECHO state and proof."

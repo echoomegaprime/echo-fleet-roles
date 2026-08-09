@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Commander Power"
+  short_description: "Direct strategic command of the ECHO fleet"
+  default_prompt: "Use $echo-commander-power to execute this role end to end with live ECHO state and proof."

@@ -1,0 +1,31 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - name: Compile and test
+        shell: pwsh
+        run: .\scripts\verify.ps1
+      - name: Same-session role switch smoke
+        shell: pwsh
+        run: .\scripts\smoke-role-switch.ps1
+      - name: Build distributable package
+        shell: pwsh
+        run: python -m pip wheel . --no-deps --wheel-dir release
+      - name: Hash release package
+        shell: pwsh
+        run: Get-FileHash release\*.whl -Algorithm SHA256 | Format-Table -AutoSize

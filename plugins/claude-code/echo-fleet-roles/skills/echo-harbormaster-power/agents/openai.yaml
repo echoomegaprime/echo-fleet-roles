@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Harbormaster Power"
+  short_description: "Stage, promote, verify, and roll back releases"
+  default_prompt: "Use $echo-harbormaster-power to stage, verify, promote, and prove this release with rollback readiness."

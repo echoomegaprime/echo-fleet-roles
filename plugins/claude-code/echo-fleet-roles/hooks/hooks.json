@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${CLAUDE_PLUGIN_ROOT}/hooks/role_context.py",
+            "statusMessage": "Loading the selected ECHO fleet role"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${CLAUDE_PLUGIN_ROOT}/hooks/role_context.py",
+            "statusMessage": "Applying ECHO role context"
+          }
+        ]
+      }
+    ]
+  }
+}

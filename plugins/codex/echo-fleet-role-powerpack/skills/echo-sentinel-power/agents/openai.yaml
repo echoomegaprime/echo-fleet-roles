@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Sentinel Power"
+  short_description: "Continuously defend and validate ECHO systems"
+  default_prompt: "Use $echo-sentinel-power to execute this role end to end with live ECHO state and proof."

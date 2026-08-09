@@ -1,0 +1,14 @@
+{
+  "name": "echo-fleet-roles",
+  "version": "2.0.0",
+  "description": "Thirty production ECHO fleet roles plus audited same-session role switching for Claude Code.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com",
+    "url": "https://github.com/echoomegaprime"
+  },
+  "homepage": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "license": "Proprietary",
+  "keywords": ["echo", "fleet", "roles", "claude-code", "operations", "security"]
+}

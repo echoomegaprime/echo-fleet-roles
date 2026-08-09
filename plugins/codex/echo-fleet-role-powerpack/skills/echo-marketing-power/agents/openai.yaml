@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Marketing Power"
+  short_description: "Create and verify premium growth campaigns"
+  default_prompt: "Use $echo-marketing-power to execute this role end to end with live ECHO state and proof."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Deputy Commander Power"
+  short_description: "Coordinate fleet operations and incident command"
+  default_prompt: "Use $echo-deputy-commander-power to execute this role end to end with live ECHO state and proof."

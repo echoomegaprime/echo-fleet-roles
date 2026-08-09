@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Publisher Power"
+  short_description: "Package, document, and publish verified releases"
+  default_prompt: "Use $echo-publisher-power to execute this role end to end with live ECHO state and proof."

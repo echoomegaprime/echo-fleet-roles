@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Compliance Officer Power"
+  short_description: "Turn obligations into testable compliance evidence"
+  default_prompt: "Use $echo-compliance-officer-power to map obligations, verify controls, and produce an auditable compliance decision."

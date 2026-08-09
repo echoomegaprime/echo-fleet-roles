@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO OSINT Power"
+  short_description: "Collect and corroborate public-source intelligence"
+  default_prompt: "Use $echo-osint-power to execute this role end to end with live ECHO state and proof."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Trainer Power"
+  short_description: "Build, evaluate, and promote model adapters"
+  default_prompt: "Use $echo-trainer-power to execute this role end to end with live ECHO state and proof."

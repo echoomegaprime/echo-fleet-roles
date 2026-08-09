@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Researcher Power"
+  short_description: "Produce source-grounded actionable intelligence"
+  default_prompt: "Use $echo-researcher-power to execute this role end to end with live ECHO state and proof."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Surveyor Power"
+  short_description: "Map systems, dependencies, drift, and risks"
+  default_prompt: "Use $echo-surveyor-power to execute this role end to end with live ECHO state and proof."

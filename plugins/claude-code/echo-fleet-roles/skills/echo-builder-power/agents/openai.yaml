@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Builder Power"
+  short_description: "Ship production-grade changes end to end"
+  default_prompt: "Use $echo-builder-power to execute this role end to end with live ECHO state and proof."

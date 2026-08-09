@@ -1,0 +1,33 @@
+{
+  "name": "echo-fleet-role-powerpack",
+  "version": "1.0.0",
+  "description": "Thirty production ECHO fleet roles plus audited same-session role switching for Codex.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "homepage": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "license": "Proprietary",
+  "keywords": ["echo", "fleet", "roles", "codex", "operations", "security"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ECHO Fleet Roles",
+    "shortDescription": "Thirty powerful roles with live same-session switching.",
+    "longDescription": "Provides 30 focused ECHO operating roles, role-aware scope and capability routing, evidence gates, failure recovery, delivery registration, and an audited role-state runtime that changes specialization without opening another terminal.",
+    "developerName": "ECHO OMEGA PRIME",
+    "category": "Productivity",
+    "capabilities": [
+      "fleet-command-and-coordination",
+      "architecture-building-and-hardening",
+      "authorized-security-testing-and-defense",
+      "reverse-engineering-and-clean-room-reconstruction",
+      "research-publishing-data-and-compliance",
+      "role-aware-scoped-sdk-routing",
+      "same-session-role-switching",
+      "verification-registration-and-memory"
+    ],
+    "websiteURL": "https://github.com/echoomegaprime/echo-fleet-roles",
+    "defaultPrompt": "Select the best ECHO fleet role for this objective, load its primary role skill, switch roles when the work changes domains, and execute through verified closeout."
+  }
+}

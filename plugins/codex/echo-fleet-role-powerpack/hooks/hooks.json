@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${PLUGIN_ROOT}/hooks/role_context.py",
+            "commandWindows": "python \"${PLUGIN_ROOT}\\hooks\\role_context.py\"",
+            "statusMessage": "Loading the selected ECHO fleet role",
+            "additionalContextLimit": 2400
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python ${PLUGIN_ROOT}/hooks/role_context.py",
+            "commandWindows": "python \"${PLUGIN_ROOT}\\hooks\\role_context.py\"",
+            "statusMessage": "Applying ECHO role context",
+            "additionalContextLimit": 2400
+          }
+        ]
+      }
+    ]
+  }
+}

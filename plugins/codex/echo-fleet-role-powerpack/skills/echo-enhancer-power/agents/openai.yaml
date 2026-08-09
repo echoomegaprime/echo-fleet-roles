@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Enhancer Power"
+  short_description: "Harden and elevate existing implementations"
+  default_prompt: "Use $echo-enhancer-power to execute this role end to end with live ECHO state and proof."

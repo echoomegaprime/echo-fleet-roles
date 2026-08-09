@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Architect Power"
+  short_description: "Design verified systems and executable build contracts"
+  default_prompt: "Use $echo-architect-power to execute this role end to end with live ECHO state and proof."

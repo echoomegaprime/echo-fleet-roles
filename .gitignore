@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+build/
+dist/
+.venv/
+.env
+*.log
+*.sqlite3
+release/*.zip
+release/*.sha256
+release/*.whl
+release/*.json

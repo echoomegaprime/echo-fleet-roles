@@ -1,0 +1,864 @@
+{
+  "schema_version": 2,
+  "default_role": "commander",
+  "default_plugin": "echo-fleet-role-powerpack@echoomegaprime",
+  "aliases": {
+    "c": "commander",
+    "commander": "commander",
+    "d": "deputy_commander",
+    "deputy": "deputy_commander",
+    "deputy-commander": "deputy_commander",
+    "a": "architect",
+    "architect": "architect",
+    "i": "innovator",
+    "innovator": "innovator",
+    "o": "observer",
+    "observer": "observer",
+    "b": "builder",
+    "builder": "builder",
+    "cli": "cli-build",
+    "cli-build": "cli-build",
+    "p": "publisher",
+    "publisher": "publisher",
+    "e": "enhancer",
+    "enhancer": "enhancer",
+    "r": "researcher",
+    "researcher": "researcher",
+    "t": "trainer",
+    "trainer": "trainer",
+    "s": "sentinel",
+    "sentinel": "sentinel",
+    "curation": "curator",
+    "curator": "curator",
+    "q": "quartermaster",
+    "quartermaster": "quartermaster",
+    "steward": "steward",
+    "beta": "beta",
+    "prime": "echo-prime",
+    "echo-prime": "echo-prime",
+    "marketing": "marketing",
+    "osint": "osint",
+    "surveyor": "surveyor",
+    "troubleshooter": "troubleshooter",
+    "l": "landman",
+    "landman": "landman",
+    "z": "reverse-engineer",
+    "re": "reverse-engineer",
+    "reverse": "reverse-engineer",
+    "reverse-engineer": "reverse-engineer",
+    "pentest": "pentester",
+    "pentester": "pentester",
+    "j": "judge",
+    "judge": "judge",
+    "harbor": "harbormaster",
+    "harbormaster": "harbormaster",
+    "pm": "product-manager",
+    "product": "product-manager",
+    "product-manager": "product-manager",
+    "ux": "experience-designer",
+    "experience-designer": "experience-designer",
+    "data": "data-engineer",
+    "data-engineer": "data-engineer",
+    "compliance": "compliance-officer",
+    "compliance-officer": "compliance-officer"
+  },
+  "roles": {
+    "commander": {
+      "primary_skill": "echo-commander-power",
+      "composed_skills": [
+        "echo-codex-coordinator",
+        "echo-astral-orchestration",
+        "echo-risk-action-review",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.monitor.*",
+        "echo.observe.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.monitor.*",
+        "echo.observe.*",
+        "echo.sdk.*"
+      ]
+    },
+    "deputy_commander": {
+      "primary_skill": "echo-deputy-commander-power",
+      "composed_skills": [
+        "echo-codex-coordinator",
+        "echo-frontier-infrastructure",
+        "echo-risk-action-review",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.psql.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.shell.*"
+      ]
+    },
+    "architect": {
+      "primary_skill": "echo-architect-power",
+      "composed_skills": [
+        "echo-graph-mode",
+        "echo-runbook-generation",
+        "echo-risk-action-review",
+        "codex-security:threat-model"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.engine.*",
+        "echo.functions.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.caps.*",
+        "echo.functions.*",
+        "echo.sdk.*"
+      ]
+    },
+    "innovator": {
+      "primary_skill": "echo-innovator-power",
+      "composed_skills": [
+        "innovator-max:innovator-max",
+        "innovator-max:capability-marketplace",
+        "innovator-max:doorway-integration",
+        "echo-graph-mode"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.engine.*",
+        "echo.fable.*",
+        "echo.functions.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.caps.*",
+        "echo.functions.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ]
+    },
+    "observer": {
+      "primary_skill": "echo-observer-power",
+      "composed_skills": [
+        "echo-frontier-infrastructure",
+        "echo-mcp-incident-recovery",
+        "echo-proofline-verification",
+        "superpowers:systematic-debugging"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.observe.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.observe.*",
+        "echo.shell.*"
+      ]
+    },
+    "builder": {
+      "primary_skill": "echo-builder-power",
+      "composed_skills": [
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion",
+        "echo-risk-action-review",
+        "skills-gateway"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.caps.*",
+        "echo.fable.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.sdk.*",
+        "echo.shell.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.shell.*"
+      ]
+    },
+    "cli-build": {
+      "primary_skill": "echo-cli-build-power",
+      "composed_skills": [
+        "echo-codex-coordinator",
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion",
+        "echo-risk-action-review"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.shell.*"
+      ]
+    },
+    "publisher": {
+      "primary_skill": "echo-publisher-power",
+      "composed_skills": [
+        "echo-delivery-evidence",
+        "echo-proofline-verification",
+        "github:github"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.sdk.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.website.*"
+      ]
+    },
+    "enhancer": {
+      "primary_skill": "echo-enhancer-power",
+      "composed_skills": [
+        "codex-security:security-diff-scan",
+        "codex-security:validation",
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.functions.*",
+        "echo.git.*",
+        "echo.monitor.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.functions.*",
+        "echo.git.*"
+      ]
+    },
+    "researcher": {
+      "primary_skill": "echo-researcher-power",
+      "composed_skills": [
+        "echo-ragops",
+        "echo-proofline-verification",
+        "browser-automation"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.grok.*",
+        "echo.knowledge.*",
+        "echo.library.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.grok.*",
+        "echo.swarm.*"
+      ]
+    },
+    "trainer": {
+      "primary_skill": "echo-trainer-power",
+      "composed_skills": [
+        "ai-ml-mastery",
+        "data-pipeline",
+        "finetuning",
+        "echo-frontier-infrastructure",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.engine.*",
+        "echo.fs.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.modelhost.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.modelhost.*",
+        "echo.monitor.*",
+        "echo.node.*"
+      ]
+    },
+    "sentinel": {
+      "primary_skill": "echo-sentinel-power",
+      "composed_skills": [
+        "codex-security:security-scan",
+        "codex-security:deep-security-scan",
+        "codex-security:threat-model",
+        "codex-security:track-findings",
+        "codex-security:validation",
+        "echo-risk-action-review"
+      ],
+      "scopes": [
+        "echo.autoshield.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.guardian.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.crucible.*",
+        "echo.guardian.*",
+        "echo.monitor.*"
+      ]
+    },
+    "curator": {
+      "primary_skill": "echo-curator-power",
+      "composed_skills": [
+        "echo-ragops",
+        "memory-orchestration",
+        "contextual-memory-bridge",
+        "consolidate-memory"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.knowledge.*",
+        "echo.library.*",
+        "echo.memory-spine.*",
+        "echo.memoryconsolidationnode.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "echo.knowledge.*",
+        "echo.library.*",
+        "echo.memory-spine.*",
+        "echo.memoryconsolidationnode.*"
+      ]
+    },
+    "quartermaster": {
+      "primary_skill": "echo-quartermaster-power",
+      "composed_skills": [
+        "skills-gateway",
+        "mcp-constellation",
+        "mcp-builder",
+        "plugin-creator",
+        "skill-creator",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.functions.*",
+        "echo.lanes.*",
+        "echo.library.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.mega.*",
+        "echo.sdk.*",
+        "echo.shell.*",
+        "echo.skills.*"
+      ],
+      "capability_families": [
+        "echo.caps.*",
+        "echo.library.*",
+        "echo.sdk.*",
+        "echo.skills.*"
+      ]
+    },
+    "steward": {
+      "primary_skill": "echo-steward-power",
+      "composed_skills": [
+        "echo-frontier-infrastructure",
+        "echo-risk-action-review",
+        "echo-runbook-generation",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.backup.*",
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.monitor.*",
+        "echo.node.*"
+      ]
+    },
+    "beta": {
+      "primary_skill": "echo-beta-power",
+      "composed_skills": [
+        "browser-automation",
+        "echo-proofline-verification",
+        "echo-delivery-evidence",
+        "data-analytics:validate-data"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.caps.*",
+        "echo.sdk.*",
+        "echo.sentinel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.website.*"
+      ]
+    },
+    "echo-prime": {
+      "primary_skill": "echo-prime-power",
+      "composed_skills": [
+        "echo-prime-core",
+        "echo-omnipresence-operator",
+        "echo-astral-orchestration",
+        "echo-graph-mode",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.cognition.*",
+        "echo.echo_speak.*",
+        "echo.nest.*",
+        "echo.personality.*",
+        "echo.sdk.*",
+        "echo.sentinel.*",
+        "echo.smarthome.*",
+        "echo.swarm.*",
+        "echo.talkpipeline.*"
+      ],
+      "capability_families": [
+        "echo.cognition.*",
+        "echo.personality.*",
+        "echo.sentinel.*",
+        "echo.swarm.*"
+      ]
+    },
+    "marketing": {
+      "primary_skill": "echo-marketing-power",
+      "composed_skills": [
+        "brand-guidelines",
+        "internal-comms",
+        "browser-automation",
+        "echo-delivery-evidence"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.grok.*",
+        "echo.image.*",
+        "echo.sdk.*",
+        "echo.social.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.grok.*",
+        "echo.website.*"
+      ]
+    },
+    "osint": {
+      "primary_skill": "echo-osint-power",
+      "composed_skills": [
+        "browser-automation",
+        "ethical-hacking-mastery",
+        "echo-proofline-verification",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.fs.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.crucible.*"
+      ]
+    },
+    "surveyor": {
+      "primary_skill": "echo-surveyor-power",
+      "composed_skills": [
+        "echo-proofline-verification",
+        "echo-risk-action-review",
+        "echo-runbook-generation",
+        "superpowers:systematic-debugging"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.psql.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.monitor.*",
+        "echo.node.*"
+      ]
+    },
+    "troubleshooter": {
+      "primary_skill": "echo-troubleshooter-power",
+      "composed_skills": [
+        "superpowers:systematic-debugging",
+        "echo-mcp-incident-recovery",
+        "echo-frontier-infrastructure",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.shell.*"
+      ]
+    },
+    "landman": {
+      "primary_skill": "echo-landman-power",
+      "composed_skills": [
+        "echo-landman-operator",
+        "browser-automation",
+        "echo-proofline-verification",
+        "echo-delivery-evidence"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.documentdelivery.*",
+        "echo.fs.*",
+        "echo.landman.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.landman.*"
+      ]
+    },
+    "reverse-engineer": {
+      "primary_skill": "echo-reverse-engineering",
+      "composed_skills": [
+        "browser-automation",
+        "ethical-hacking-mastery",
+        "codex-security:deep-security-scan",
+        "superpowers:systematic-debugging",
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.crucible.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.apk.*",
+        "echo.re.binary.*"
+      ]
+    },
+    "pentester": {
+      "primary_skill": "echo-pentester-power",
+      "composed_skills": [
+        "ethical-hacking-mastery",
+        "codex-security:attack-path-analysis",
+        "codex-security:threat-model",
+        "codex-security:finding-discovery",
+        "codex-security:track-findings",
+        "codex-security:validation",
+        "echo-frontier-infrastructure",
+        "echo-risk-action-review",
+        "echo-proofline-verification",
+        "browser-automation"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.autoshield.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.cruciblepentest.*",
+        "echo.defend.*",
+        "echo.devicelab.*",
+        "echo.guardian.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.autoshield.*",
+        "echo.crucible.*",
+        "echo.cruciblepentest.*",
+        "echo.defend.*",
+        "echo.devicelab.*",
+        "echo.guardian.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.*"
+      ]
+    },
+    "judge": {
+      "primary_skill": "echo-judge-power",
+      "composed_skills": [
+        "echo-proofline-verification",
+        "echo-risk-action-review",
+        "codex-security:validation",
+        "superpowers:verification-before-completion",
+        "data-analytics:validate-data"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.buildtracker.*",
+        "echo.caps.*",
+        "echo.certforge.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.qatester.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "echo.beta.*",
+        "echo.buildtracker.*",
+        "echo.certforge.*",
+        "echo.qatester.*"
+      ]
+    },
+    "harbormaster": {
+      "primary_skill": "echo-harbormaster-power",
+      "composed_skills": [
+        "echo-delivery-evidence",
+        "echo-proofline-verification",
+        "echo-risk-action-review",
+        "echo-runbook-generation",
+        "github:github"
+      ],
+      "scopes": [
+        "echo.auth.*",
+        "echo.buildtracker.*",
+        "echo.caps.*",
+        "echo.certforge.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.sdk.*",
+        "echo.shell.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "echo.certforge.*",
+        "echo.git.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ]
+    },
+    "product-manager": {
+      "primary_skill": "echo-product-manager-power",
+      "composed_skills": [
+        "data-analytics:gather-business-context",
+        "data-analytics:product-business-analysis",
+        "data-analytics:design-kpis",
+        "data-analytics:market-sizing",
+        "doc-coauthoring",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.builds.*",
+        "echo.buildtracker.*",
+        "echo.caps.*",
+        "echo.commerce.*",
+        "echo.context.*",
+        "echo.knowledge.*",
+        "echo.prompts.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.buildtracker.*",
+        "echo.prompts.*"
+      ]
+    },
+    "experience-designer": {
+      "primary_skill": "echo-experience-designer-power",
+      "composed_skills": [
+        "figma:figma-use",
+        "figma:figma-generate-design",
+        "browser-automation",
+        "brand-guidelines",
+        "gui-building-prime",
+        "vercel:agent-browser-verify"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.caps.*",
+        "echo.grok.*",
+        "echo.image.*",
+        "echo.sdk.*",
+        "echo.sentinel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.website.*"
+      ]
+    },
+    "data-engineer": {
+      "primary_skill": "echo-data-engineer-power",
+      "composed_skills": [
+        "data-pipeline",
+        "data-analytics:analyze-data-quality",
+        "data-analytics:validate-data",
+        "echo-frontier-infrastructure",
+        "echo-risk-action-review",
+        "echo-proofline-verification"
+      ],
+      "scopes": [
+        "echo.backup.*",
+        "echo.brain.*",
+        "echo.caps.*",
+        "echo.crystal.*",
+        "echo.fs.*",
+        "echo.knowledge.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.psql.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.backup.*",
+        "echo.fs.*",
+        "echo.knowledge.*",
+        "echo.monitor.*",
+        "echo.psql.*"
+      ]
+    },
+    "compliance-officer": {
+      "primary_skill": "echo-compliance-officer-power",
+      "composed_skills": [
+        "codex-security:define-security-policy",
+        "codex-security:threat-model",
+        "echo-risk-action-review",
+        "echo-proofline-verification",
+        "echo-delivery-evidence",
+        "data-analytics:validate-data"
+      ],
+      "scopes": [
+        "echo.audit.*",
+        "echo.builds.*",
+        "echo.caps.*",
+        "echo.comms.*",
+        "echo.compliance.*",
+        "echo.complianceauditor.*",
+        "echo.doctrine.*",
+        "echo.git.*",
+        "echo.knowledge.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "echo.audit.*",
+        "echo.comms.*",
+        "echo.compliance.*",
+        "echo.complianceauditor.*",
+        "echo.doctrine.*"
+      ]
+    }
+  }
+}

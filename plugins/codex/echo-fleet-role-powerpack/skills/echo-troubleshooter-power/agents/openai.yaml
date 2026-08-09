@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Troubleshooter Power"
+  short_description: "Find root causes and prove durable repairs"
+  default_prompt: "Use $echo-troubleshooter-power to execute this role end to end with live ECHO state and proof."

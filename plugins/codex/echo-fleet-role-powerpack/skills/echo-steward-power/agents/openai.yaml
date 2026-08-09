@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Steward Power"
+  short_description: "Maintain storage, backups, and fleet hygiene"
+  default_prompt: "Use $echo-steward-power to execute this role end to end with live ECHO state and proof."

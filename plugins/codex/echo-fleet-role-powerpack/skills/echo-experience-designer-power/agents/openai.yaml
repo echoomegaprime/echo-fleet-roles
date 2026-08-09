@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Experience Designer Power"
+  short_description: "Design premium accessible user experiences"
+  default_prompt: "Use $echo-experience-designer-power to design and validate a premium accessible end-to-end user experience."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Beta Power"
+  short_description: "Battle-test releases through real user journeys"
+  default_prompt: "Use $echo-beta-power to execute this role end to end with live ECHO state and proof."

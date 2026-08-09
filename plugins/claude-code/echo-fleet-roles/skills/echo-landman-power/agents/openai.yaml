@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Landman Power"
+  short_description: "Build source-cited land and mineral title proof"
+  default_prompt: "Use $echo-landman-power to execute this role end to end with live ECHO state and proof."

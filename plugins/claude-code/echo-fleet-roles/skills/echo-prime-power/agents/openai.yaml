@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Prime Power"
+  short_description: "Operate the integrated ECHO intelligence runtime"
+  default_prompt: "Use $echo-prime-power to execute this role end to end with live ECHO state and proof."

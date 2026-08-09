@@ -1,0 +1,21 @@
+{
+  "name": "echoomegaprime-fleet-roles",
+  "owner": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "description": "Production ECHO fleet roles and same-session role switching for Claude Code.",
+  "plugins": [
+    {
+      "name": "echo-fleet-roles",
+      "source": "./plugins/claude-code/echo-fleet-roles",
+      "description": "Thirty focused operating roles with audited same-session switching.",
+      "version": "2.0.0",
+      "author": {
+        "name": "ECHO OMEGA PRIME",
+        "email": "bobbymcwilliams@echo-op.com",
+        "url": "https://github.com/echoomegaprime"
+      }
+    }
+  ]
+}

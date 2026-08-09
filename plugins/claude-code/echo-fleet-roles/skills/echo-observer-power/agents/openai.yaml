@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Observer Power"
+  short_description: "Monitor, diagnose, and recover live systems"
+  default_prompt: "Use $echo-observer-power to execute this role end to end with live ECHO state and proof."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Innovator Power"
+  short_description: "Discover and compound high-value capabilities"
+  default_prompt: "Use $echo-innovator-power to execute this role end to end with live ECHO state and proof."

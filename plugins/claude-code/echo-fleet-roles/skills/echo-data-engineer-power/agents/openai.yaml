@@ -1,0 +1,4 @@
+interface:
+  display_name: "ECHO Data Engineer Power"
+  short_description: "Build governed reliable data systems and migrations"
+  default_prompt: "Use $echo-data-engineer-power to design, migrate, validate, and operate this data system with lineage and recovery proof."
