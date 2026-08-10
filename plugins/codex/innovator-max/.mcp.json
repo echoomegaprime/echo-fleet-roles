@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "innovator-max": {
+      "cwd": ".",
+      "command": "python",
+      "args": ["./scripts/mcp_server.py", "--transport", "stdio"]
+    }
+  }
+}

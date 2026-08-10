@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "echo-desktop-ops": {
+      "cwd": ".",
+      "command": "python",
+      "args": ["./scripts/desktop_mcp.py"]
+    }
+  }
+}

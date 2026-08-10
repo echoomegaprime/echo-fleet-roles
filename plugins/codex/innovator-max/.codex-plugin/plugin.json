@@ -1,0 +1,30 @@
+{
+  "name": "innovator-max",
+  "version": "0.2.0",
+  "description": "Production-grade innovation, verification, fleet integration, and AAA graphics workflows for ECHO.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "homepage": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "keywords": ["innovation", "verification", "fleet", "sdk", "shaders", "graphics", "production"],
+  "skills": "./skills/",
+  "interface": {
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "brandColor": "#3DDC84",
+    "displayName": "Innovator Max",
+    "shortDescription": "Ship verified innovations and AAA visuals.",
+    "longDescription": "Combines live ECHO mission execution, safe experimentation, memory and build registration with a scalable AAA graphics pipeline for materials, lighting, shaders, effects, optimization, and visual QA.",
+    "developerName": "ECHO OMEGA PRIME",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write", "Visual Design", "Testing"],
+    "defaultPrompt": [
+      "Find and ship the highest-value safe improvement.",
+      "Upgrade this asset to AAA visual quality.",
+      "Verify and register this production change."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

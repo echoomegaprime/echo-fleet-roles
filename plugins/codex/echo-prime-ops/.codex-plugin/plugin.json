@@ -1,0 +1,43 @@
+{
+  "name": "echo-prime-ops",
+  "version": "1.0.0+codex.20260809174137",
+  "description": "Read-only Echo registry, persona, and public-safety operations for ChatGPT and Codex.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "homepage": "https://echo-op.com",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "license": "MIT",
+  "keywords": [
+    "echo",
+    "mcp",
+    "chatgpt",
+    "codex",
+    "operations"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Echo Prime Ops",
+    "shortDescription": "Read-only Echo operations",
+    "longDescription": "Search the Echo SDK registry, fetch exact capability records, inspect privacy-reduced Persona Forge metadata, and retrieve bounded official public-safety context.",
+    "developerName": "ECHO OMEGA PRIME",
+    "category": "Developer Tools",
+    "capabilities": [
+      "SDK registry discovery",
+      "Persona metadata lookup",
+      "Public-safety context"
+    ],
+    "websiteURL": "https://echo-op.com",
+    "brandColor": "#9C27B0",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Find the Echo capability named echo.a2a.health.",
+      "List active Echo personas without private configuration.",
+      "Get bounded public-safety context for Texas."
+    ]
+  },
+  "apps": "./.app.json"
+}

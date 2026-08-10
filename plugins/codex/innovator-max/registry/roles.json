@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "shared_contract": ["doorway", "discover", "retrieve", "plan", "invoke", "verify", "register", "remember"],
+  "global_skills": ["doorway-integration", "capability-marketplace"],
+  "roles": [
+    {"id":"commander","source":"FLEET_ROLES/commander.md","skills":["innovator-max","troubleshooting"],"connectors":["context-recall","queue-list","build-register","decision-persist"],"authority":"strategic"},
+    {"id":"deputy_commander","source":"FLEET_ROLES/deputy_commander.md","skills":["innovator-max","troubleshooting"],"connectors":["context-recall","queue-list","build-register"],"authority":"coordination"},
+    {"id":"architect","source":"FLEET_ROLES/architect.md","skills":["innovator-max","troubleshooting"],"connectors":["context-recall","arcanum-search","knowledge-search","queue-list"],"authority":"design"},
+    {"id":"innovator","source":"FLEET_ROLES/innovator.md","skills":["innovator-max","aaa-graphics-pipeline","troubleshooting"],"connectors":["context-recall","arcanum-search","knowledge-search","queue-list","build-register","decision-persist"],"authority":"discovery"},
+    {"id":"observer","source":"FLEET_ROLES/observer.md","skills":["troubleshooting"],"connectors":["context-recall","knowledge-search","queue-list"],"authority":"monitoring"},
+    {"id":"builder","source":"FLEET_ROLES/builder.md","skills":["innovator-max","troubleshooting"],"connectors":["arcanum-search","knowledge-search","queue-list","build-register"],"authority":"implementation"},
+    {"id":"cli-build","source":"FLEET_ROLES/cli-build.md","skills":["innovator-max","troubleshooting"],"connectors":["arcanum-search","knowledge-search","build-register"],"authority":"implementation"},
+    {"id":"publisher","source":"FLEET_ROLES/publisher.md","skills":["troubleshooting"],"connectors":["build-register","knowledge-search"],"authority":"release"},
+    {"id":"enhancer","source":"FLEET_ROLES/enhancer.md","skills":["innovator-max","troubleshooting"],"connectors":["arcanum-search","knowledge-search","build-register"],"authority":"quality"},
+    {"id":"researcher","source":"FLEET_ROLES/researcher.md","skills":["innovator-max"],"connectors":["knowledge-search","context-recall","decision-persist"],"authority":"research"},
+    {"id":"trainer","source":"FLEET_ROLES/trainer.md","skills":["innovator-max","troubleshooting"],"connectors":["knowledge-search","context-recall","build-register"],"authority":"training"},
+    {"id":"sentinel","source":"FLEET_ROLES/sentinel.md","skills":["troubleshooting"],"connectors":["knowledge-search","context-recall","build-register"],"authority":"reliability"},
+    {"id":"curator","source":"FLEET_ROLES/curator.md","skills":["innovator-max","troubleshooting"],"connectors":["knowledge-search","context-recall","decision-persist"],"authority":"knowledge"},
+    {"id":"quartermaster","source":"FLEET_ROLES/quartermaster.md","skills":["troubleshooting"],"connectors":["queue-list","context-recall","build-register"],"authority":"operations"},
+    {"id":"steward","source":"FLEET_ROLES/steward.md","skills":["troubleshooting"],"connectors":["context-recall","knowledge-search","build-register"],"authority":"maintenance"},
+    {"id":"beta","source":"FLEET_ROLES/beta.md","skills":["troubleshooting","aaa-graphics-pipeline"],"connectors":["knowledge-search","build-register","decision-persist"],"authority":"validation"},
+    {"id":"marketing","source":"FLEET_ROLES/marketing.md","skills":["innovator-max","aaa-graphics-pipeline"],"connectors":["knowledge-search","context-recall","build-register"],"authority":"growth"},
+    {"id":"osint","source":"FLEET_ROLES/osint.md","skills":["innovator-max","troubleshooting"],"connectors":["knowledge-search","context-recall","decision-persist"],"authority":"research"},
+    {"id":"surveyor","source":"FLEET_ROLES/surveyor.md","skills":["troubleshooting"],"connectors":["knowledge-search","context-recall","queue-list"],"authority":"inventory"},
+    {"id":"troubleshooter","source":"FLEET_ROLES/troubleshooter.md","skills":["troubleshooting","innovator-max"],"connectors":["context-recall","knowledge-search","arcanum-search","build-register","decision-persist"],"authority":"recovery"},
+    {"id":"echo-prime","source":"FLEET_ROLES/echo-prime.md","skills":["innovator-max","troubleshooting","aaa-graphics-pipeline"],"connectors":["context-recall","arcanum-search","knowledge-search","queue-list","build-register","decision-persist"],"authority":"platform"}
+  ],
+  "aliases": {"commander-tick":"commander","architect-tick":"architect","builder-tick":"builder","enhancer-tick":"enhancer","publisher-tick":"publisher","researcher-tick":"researcher","observer-tick":"observer","brainboard-tick":"curator","echo_builder":"builder","engine-builder":"builder","engine-observer":"observer"}
+}

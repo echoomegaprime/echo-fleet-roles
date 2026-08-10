@@ -18,6 +18,66 @@
       "interface": {
         "displayName": "ECHO Fleet Roles"
       }
+    },
+    {
+      "name": "echo-desktop-ops",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/echo-desktop-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "Echo Desktop Ops"
+      }
+    },
+    {
+      "name": "echo-prime-ops",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/echo-prime-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "Echo Prime Ops"
+      }
+    },
+    {
+      "name": "echo-reverse-engineering",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/echo-reverse-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security",
+      "interface": {
+        "displayName": "Echo Reverse Engineering"
+      }
+    },
+    {
+      "name": "innovator-max",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/innovator-max"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "Innovator Max"
+      }
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "echo-prime-ops": {
+      "type": "http",
+      "url": "https://mcp.echo-op.com/oauth-mcp-echo-prime-ops-v1",
+      "oauth_resource": "https://mcp.echo-op.com/oauth-mcp-echo-prime-ops-v1"
+    }
+  }
+}

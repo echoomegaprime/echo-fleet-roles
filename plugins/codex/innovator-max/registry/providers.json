@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {"id":"sol-sdk","kind":"sdk","transport":"scoped-sol-broker","auth":"broker-environment","supports":["retrieve","invoke","health"]},
+    {"id":"cli-jsonl","kind":"cli","transport":"stdin-stdout-jsonl","auth":"process-boundary","entrypoint":"scripts/connector_gateway.py --stdio","supports":["doorway","marketplace","roles","retrieve","invoke","health"]},
+    {"id":"http-json","kind":"http","transport":"authenticated-json-http","auth":"required-bearer-token","entrypoint":"scripts/provider_server.py","endpoint":"/v1/connector","supports":["doorway","marketplace","roles","retrieve","invoke","health"]},
+    {"id":"openai-compatible","kind":"chat","transport":"chat-completions-http-sse","auth":"required-bearer-token","entrypoint":"scripts/provider_server.py","endpoint":"/v1/chat/completions","supports":["retrieve","invoke","health","stream"]},
+    {"id":"mcp-client","kind":"mcp","transport":"mcp-2025-06-18-stdio-streamable-http","auth":"process-boundary-stdio-or-loopback-only-http","entrypoint":"scripts/mcp_server.py","endpoint":"/mcp","supports":["doorway","marketplace","roles","retrieve","invoke","health"]},
+    {"id":"a2a-agent","kind":"agent","transport":"a2a-v1-jsonrpc-http","auth":"required-bearer-token","entrypoint":"scripts/provider_server.py","agent_card":"/.well-known/agent-card.json","endpoint":"/a2a","supports":["retrieve","invoke","health"]},
+    {"id":"agent-skills","kind":"skills","transport":"filesystem-skill-loader","auth":"none","supports":["retrieve","health"]}
+  ]
+}

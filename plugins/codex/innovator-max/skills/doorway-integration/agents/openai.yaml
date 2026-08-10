@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doorway Integration"
+  short_description: "Load scoped AGENTS and CLAUDE instructions safely"
+  default_prompt: "Resolve the applicable AGENTS.md and CLAUDE.md instruction chain for this task."

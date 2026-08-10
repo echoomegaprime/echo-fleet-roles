@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capability Marketplace"
+  short_description: "Search, review, test, and publish role capabilities"
+  default_prompt: "Search the capability marketplace and review the safest reusable skill or connector."

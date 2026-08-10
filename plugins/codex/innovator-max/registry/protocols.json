@@ -1,0 +1,12 @@
+{
+  "protocols": [
+    {"id":"agent-skills","role":"instruction-packaging","source":"https://github.com/agentskills/agentskills","adopt":"format-compatible","license":"Apache-2.0"},
+    {"id":"mcp","role":"tools-resources-prompts","source":"https://modelcontextprotocol.io/specification/2025-06-18","adopt":"implemented-fastmcp-stdio-and-streamable-http","entrypoint":"scripts/mcp_server.py","conformance_test":"tests/test_protocols.py","license":"MIT"},
+    {"id":"a2a","role":"agent-to-agent","source":"https://a2a-protocol.org/latest/specification/","adopt":"implemented-official-sdk-v1-jsonrpc","entrypoint":"scripts/provider_server.py","agent_card":"/.well-known/agent-card.json","rpc_endpoint":"/a2a","conformance_test":"tests/test_protocols.py","license":"Apache-2.0"},
+    {"id":"openai-agents","role":"orchestration","source":"https://github.com/openai/openai-agents-python","adopt":"optional-client-adapter","license":"MIT"},
+    {"id":"google-adk","role":"orchestration","source":"https://github.com/google/adk-python","adopt":"optional-client-adapter","license":"Apache-2.0"},
+    {"id":"langgraph","role":"durable-workflows","source":"https://github.com/langchain-ai/langgraph","adopt":"optional-runner-adapter","license":"MIT"},
+    {"id":"litellm","role":"model-provider-routing","source":"https://github.com/BerriAI/litellm","adopt":"optional-model-router","license":"MIT"},
+    {"id":"openai-chat-completions","role":"chat-provider-compatibility","source":"https://platform.openai.com/docs/api-reference/chat","adopt":"implemented-authenticated-http-and-sse","entrypoint":"scripts/provider_server.py","endpoint":"/v1/chat/completions","conformance_test":"tests/test_protocols.py","license":"protocol-compatible"}
+  ]
+}

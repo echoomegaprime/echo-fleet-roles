@@ -12,6 +12,9 @@
   "keywords": ["echo", "fleet", "roles", "codex", "operations", "security"],
   "skills": "./skills/",
   "interface": {
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "brandColor": "#C9A227",
     "displayName": "ECHO Fleet Roles",
     "shortDescription": "Thirty powerful roles with live same-session switching.",
     "longDescription": "Provides 30 focused ECHO operating roles, role-aware scope and capability routing, evidence gates, failure recovery, delivery registration, and an audited role-state runtime that changes specialization without opening another terminal.",

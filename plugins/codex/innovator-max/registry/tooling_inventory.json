@@ -1,0 +1,2953 @@
+{
+  "counts": {
+    "Claude Code \u2014 MCP servers (project)": 9,
+    "Claude Code \u2014 MCP servers (user)": 1,
+    "Claude Code \u2014 plugins installed": 207,
+    "Claude Code \u2014 slash commands": 13,
+    "Claude Code \u2014 user skills": 115
+  },
+  "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+  "surfaces": [
+    {
+      "id": "inventory:mcp:chrome-devtools",
+      "kind": "mcp",
+      "name": "chrome-devtools",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:context7",
+      "kind": "mcp",
+      "name": "context7",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:echo-cluster-ops",
+      "kind": "mcp",
+      "name": "echo-cluster-ops",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:echo-memory",
+      "kind": "mcp",
+      "name": "echo-memory",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:echo-queue",
+      "kind": "mcp",
+      "name": "echo-queue",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:echo-sovereign",
+      "kind": "mcp",
+      "name": "echo-sovereign",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:echo-telegram",
+      "kind": "mcp",
+      "name": "echo-telegram",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:echo-vault",
+      "kind": "mcp",
+      "name": "echo-vault",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:firebase",
+      "kind": "mcp",
+      "name": "firebase",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:local-llm",
+      "kind": "mcp",
+      "name": "local-llm",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:lumen",
+      "kind": "mcp",
+      "name": "lumen",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:mega-gateway",
+      "kind": "mcp",
+      "name": "mega-gateway",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:playwright",
+      "kind": "mcp",
+      "name": "playwright",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:robloxstudio",
+      "kind": "mcp",
+      "name": "robloxstudio",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:serena",
+      "kind": "mcp",
+      "name": "serena",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-plugin",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:mcp:shadowglass",
+      "kind": "mcp",
+      "name": "shadowglass",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-echo-inventory",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:42crunch-api-security-testing",
+      "kind": "plugin",
+      "name": "42crunch-api-security-testing",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:agent-sdk-dev",
+      "kind": "plugin",
+      "name": "agent-sdk-dev",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:aikido",
+      "kind": "plugin",
+      "name": "aikido",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:amplitude",
+      "kind": "plugin",
+      "name": "amplitude",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:asana",
+      "kind": "plugin",
+      "name": "asana",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:atlassian",
+      "kind": "plugin",
+      "name": "atlassian",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:autonomous-omega",
+      "kind": "plugin",
+      "name": "autonomous-omega",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:aws-core",
+      "kind": "plugin",
+      "name": "aws-core",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:aws-dev-toolkit",
+      "kind": "plugin",
+      "name": "aws-dev-toolkit",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:aws-serverless",
+      "kind": "plugin",
+      "name": "aws-serverless",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:azure",
+      "kind": "plugin",
+      "name": "azure",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:bigquery-data-analytics",
+      "kind": "plugin",
+      "name": "bigquery-data-analytics",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:brightdata-plugin",
+      "kind": "plugin",
+      "name": "brightdata-plugin",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:browser-use",
+      "kind": "plugin",
+      "name": "browser-use",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:canva",
+      "kind": "plugin",
+      "name": "canva",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:chrome-devtools-mcp",
+      "kind": "plugin",
+      "name": "chrome-devtools-mcp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:clangd-lsp",
+      "kind": "plugin",
+      "name": "clangd-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:claude-md-management",
+      "kind": "plugin",
+      "name": "claude-md-management",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:claude-security",
+      "kind": "plugin",
+      "name": "claude-security",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:clickhouse",
+      "kind": "plugin",
+      "name": "clickhouse",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:cloudflare",
+      "kind": "plugin",
+      "name": "cloudflare",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:cloudinary",
+      "kind": "plugin",
+      "name": "cloudinary",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:code-review",
+      "kind": "plugin",
+      "name": "code-review",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:code-simplifier",
+      "kind": "plugin",
+      "name": "code-simplifier",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:commit-commands",
+      "kind": "plugin",
+      "name": "commit-commands",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:context7",
+      "kind": "plugin",
+      "name": "context7",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:convex",
+      "kind": "plugin",
+      "name": "convex",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:crowdsec",
+      "kind": "plugin",
+      "name": "crowdsec",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:crowdstrike-falcon-foundry",
+      "kind": "plugin",
+      "name": "crowdstrike-falcon-foundry",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:crystal-memory",
+      "kind": "plugin",
+      "name": "crystal-memory",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:csharp-lsp",
+      "kind": "plugin",
+      "name": "csharp-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:datadog",
+      "kind": "plugin",
+      "name": "datadog",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:desktop-commander",
+      "kind": "plugin",
+      "name": "desktop-commander",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:dev-tools",
+      "kind": "plugin",
+      "name": "dev-tools",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:discord",
+      "kind": "plugin",
+      "name": "discord",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-browser",
+      "kind": "plugin",
+      "name": "echo-browser",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-comms",
+      "kind": "plugin",
+      "name": "echo-comms",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-design",
+      "kind": "plugin",
+      "name": "echo-design",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-e2e",
+      "kind": "plugin",
+      "name": "echo-e2e",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-engine",
+      "kind": "plugin",
+      "name": "echo-engine",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-foreman",
+      "kind": "plugin",
+      "name": "echo-foreman",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-forge",
+      "kind": "plugin",
+      "name": "echo-forge",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-grounding",
+      "kind": "plugin",
+      "name": "echo-grounding",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-media",
+      "kind": "plugin",
+      "name": "echo-media",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-osint",
+      "kind": "plugin",
+      "name": "echo-osint",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-security",
+      "kind": "plugin",
+      "name": "echo-security",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-ship",
+      "kind": "plugin",
+      "name": "echo-ship",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-sovereign",
+      "kind": "plugin",
+      "name": "echo-sovereign",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-superbuild",
+      "kind": "plugin",
+      "name": "echo-superbuild",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:echo-sync",
+      "kind": "plugin",
+      "name": "echo-sync",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:ekm-knowledge",
+      "kind": "plugin",
+      "name": "ekm-knowledge",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:exa",
+      "kind": "plugin",
+      "name": "exa",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:feature-dev",
+      "kind": "plugin",
+      "name": "feature-dev",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:figma",
+      "kind": "plugin",
+      "name": "figma",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:firebase",
+      "kind": "plugin",
+      "name": "firebase",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:firecrawl",
+      "kind": "plugin",
+      "name": "firecrawl",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:frontend-design",
+      "kind": "plugin",
+      "name": "frontend-design",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:github",
+      "kind": "plugin",
+      "name": "github",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:gitlab",
+      "kind": "plugin",
+      "name": "gitlab",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:gopls-lsp",
+      "kind": "plugin",
+      "name": "gopls-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:gs343-healer",
+      "kind": "plugin",
+      "name": "gs343-healer",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:hookify",
+      "kind": "plugin",
+      "name": "hookify",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:huggingface-skills",
+      "kind": "plugin",
+      "name": "huggingface-skills",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:intercom",
+      "kind": "plugin",
+      "name": "intercom",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:jdtls-lsp",
+      "kind": "plugin",
+      "name": "jdtls-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:kotlin-lsp",
+      "kind": "plugin",
+      "name": "kotlin-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:linear",
+      "kind": "plugin",
+      "name": "linear",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:llm-router",
+      "kind": "plugin",
+      "name": "llm-router",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:lua-lsp",
+      "kind": "plugin",
+      "name": "lua-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:lumen",
+      "kind": "plugin",
+      "name": "lumen",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:mcp-server-dev",
+      "kind": "plugin",
+      "name": "mcp-server-dev",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:mega-gateway",
+      "kind": "plugin",
+      "name": "mega-gateway",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:mega-master",
+      "kind": "plugin",
+      "name": "mega-master",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:mintlify",
+      "kind": "plugin",
+      "name": "mintlify",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:miro",
+      "kind": "plugin",
+      "name": "miro",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:mongodb",
+      "kind": "plugin",
+      "name": "mongodb",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:neon",
+      "kind": "plugin",
+      "name": "neon",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:netlify-skills",
+      "kind": "plugin",
+      "name": "netlify-skills",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:opus-architect",
+      "kind": "plugin",
+      "name": "opus-architect",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:pagerduty",
+      "kind": "plugin",
+      "name": "pagerduty",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:personality-loader",
+      "kind": "plugin",
+      "name": "personality-loader",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:phoenix-recovery",
+      "kind": "plugin",
+      "name": "phoenix-recovery",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:php-lsp",
+      "kind": "plugin",
+      "name": "php-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:pinecone",
+      "kind": "plugin",
+      "name": "pinecone",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:planetscale",
+      "kind": "plugin",
+      "name": "planetscale",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:playwright",
+      "kind": "plugin",
+      "name": "playwright",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:plugin-dev",
+      "kind": "plugin",
+      "name": "plugin-dev",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:posthog",
+      "kind": "plugin",
+      "name": "posthog",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:postiz",
+      "kind": "plugin",
+      "name": "postiz",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:pr-review-toolkit",
+      "kind": "plugin",
+      "name": "pr-review-toolkit",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:prisma",
+      "kind": "plugin",
+      "name": "prisma",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:pyright-lsp",
+      "kind": "plugin",
+      "name": "pyright-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:railway",
+      "kind": "plugin",
+      "name": "railway",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:ralph-loop",
+      "kind": "plugin",
+      "name": "ralph-loop",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:resend",
+      "kind": "plugin",
+      "name": "resend",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:ruby-lsp",
+      "kind": "plugin",
+      "name": "ruby-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:rust-analyzer-lsp",
+      "kind": "plugin",
+      "name": "rust-analyzer-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:security-guidance",
+      "kind": "plugin",
+      "name": "security-guidance",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:semgrep",
+      "kind": "plugin",
+      "name": "semgrep",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:sentry",
+      "kind": "plugin",
+      "name": "sentry",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:serena",
+      "kind": "plugin",
+      "name": "serena",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:session-report",
+      "kind": "plugin",
+      "name": "session-report",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:shopify-ai-toolkit",
+      "kind": "plugin",
+      "name": "shopify-ai-toolkit",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:skill-creator",
+      "kind": "plugin",
+      "name": "skill-creator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:slack",
+      "kind": "plugin",
+      "name": "slack",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:sonarqube",
+      "kind": "plugin",
+      "name": "sonarqube",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:sovereign-ops",
+      "kind": "plugin",
+      "name": "sovereign-ops",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:stripe",
+      "kind": "plugin",
+      "name": "stripe",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:supabase",
+      "kind": "plugin",
+      "name": "supabase",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:superpowers",
+      "kind": "plugin",
+      "name": "superpowers",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:swift-lsp",
+      "kind": "plugin",
+      "name": "swift-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:telegram",
+      "kind": "plugin",
+      "name": "telegram",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:terraform",
+      "kind": "plugin",
+      "name": "terraform",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:typescript-lsp",
+      "kind": "plugin",
+      "name": "typescript-lsp",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:unlimited-context",
+      "kind": "plugin",
+      "name": "unlimited-context",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:vercel",
+      "kind": "plugin",
+      "name": "vercel",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:voice-matrix",
+      "kind": "plugin",
+      "name": "voice-matrix",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "echo-omega-prime",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:plugin:zapier",
+      "kind": "plugin",
+      "name": "zapier",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-official",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:CopyFromScreen",
+      "kind": "skill",
+      "name": "CopyFromScreen",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:PrintWindow",
+      "kind": "skill",
+      "name": "PrintWindow",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:ai-ml-mastery",
+      "kind": "skill",
+      "name": "ai-ml-mastery",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:algorithmic-art",
+      "kind": "skill",
+      "name": "algorithmic-art",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:audio-intelligence",
+      "kind": "skill",
+      "name": "audio-intelligence",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:brand-guidelines",
+      "kind": "skill",
+      "name": "brand-guidelines",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:browser-automation",
+      "kind": "skill",
+      "name": "browser-automation",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:canvas-design",
+      "kind": "skill",
+      "name": "canvas-design",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:cloudflare-edge",
+      "kind": "skill",
+      "name": "cloudflare-edge",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:data-pipeline",
+      "kind": "skill",
+      "name": "data-pipeline",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:docx",
+      "kind": "skill",
+      "name": "docx",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-approval-gate-operator",
+      "kind": "skill",
+      "name": "echo-approval-gate-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-arcanum-execution",
+      "kind": "skill",
+      "name": "echo-arcanum-execution",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-arcanum-pipeline",
+      "kind": "skill",
+      "name": "echo-arcanum-pipeline",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-builder-spawn-operator",
+      "kind": "skill",
+      "name": "echo-builder-spawn-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-central-audit",
+      "kind": "skill",
+      "name": "echo-central-audit",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-charter-engine",
+      "kind": "skill",
+      "name": "echo-charter-engine",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-command-bus-operator",
+      "kind": "skill",
+      "name": "echo-command-bus-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-commander-relief-engine",
+      "kind": "skill",
+      "name": "echo-commander-relief-engine",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-consciousness-framework",
+      "kind": "skill",
+      "name": "echo-consciousness-framework",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-crystal-memory-operator",
+      "kind": "skill",
+      "name": "echo-crystal-memory-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-execution-controller",
+      "kind": "skill",
+      "name": "echo-execution-controller",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-forge-sdk-operator",
+      "kind": "skill",
+      "name": "echo-forge-sdk-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-fox24-complete-host",
+      "kind": "skill",
+      "name": "echo-fox24-complete-host",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-gui-and-admin-operator",
+      "kind": "skill",
+      "name": "echo-gui-and-admin-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-host-evolution-orchestrator",
+      "kind": "skill",
+      "name": "echo-host-evolution-orchestrator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-host-self-evolution",
+      "kind": "skill",
+      "name": "echo-host-self-evolution",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-hud-telemetry",
+      "kind": "skill",
+      "name": "echo-hud-telemetry",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-integration",
+      "kind": "skill",
+      "name": "echo-integration",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-memory-spine-operator",
+      "kind": "skill",
+      "name": "echo-memory-spine-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-meta-skill-forge",
+      "kind": "skill",
+      "name": "echo-meta-skill-forge",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-prime-core",
+      "kind": "skill",
+      "name": "echo-prime-core",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-prime-grok-autonomy",
+      "kind": "skill",
+      "name": "echo-prime-grok-autonomy",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-proactive-awareness-engine",
+      "kind": "skill",
+      "name": "echo-proactive-awareness-engine",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-skills-gateway",
+      "kind": "skill",
+      "name": "echo-skills-gateway",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-sovereign-decision-layer",
+      "kind": "skill",
+      "name": "echo-sovereign-decision-layer",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-sovereign-orchestrator",
+      "kind": "skill",
+      "name": "echo-sovereign-orchestrator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:echo-vault-operator",
+      "kind": "skill",
+      "name": "echo-vault-operator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:ethical-hacking-mastery",
+      "kind": "skill",
+      "name": "ethical-hacking-mastery",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:golang",
+      "kind": "skill",
+      "name": "golang",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:local-llm-serving",
+      "kind": "skill",
+      "name": "local-llm-serving",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:mcp-builder",
+      "kind": "skill",
+      "name": "mcp-builder",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:mcp-constellation",
+      "kind": "skill",
+      "name": "mcp-constellation",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:multi-llm-inference",
+      "kind": "skill",
+      "name": "multi-llm-inference",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:pdf",
+      "kind": "skill",
+      "name": "pdf",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:pptx",
+      "kind": "skill",
+      "name": "pptx",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:python-mastery",
+      "kind": "skill",
+      "name": "python-mastery",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:quantum-computing",
+      "kind": "skill",
+      "name": "quantum-computing",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:rust-systems",
+      "kind": "skill",
+      "name": "rust-systems",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:scifi-writing",
+      "kind": "skill",
+      "name": "scifi-writing",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:slack-gif-creator",
+      "kind": "skill",
+      "name": "slack-gif-creator",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:social-campaign",
+      "kind": "skill",
+      "name": "social-campaign",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:social-inbox-reply",
+      "kind": "skill",
+      "name": "social-inbox-reply",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:sql-databases",
+      "kind": "skill",
+      "name": "sql-databases",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:theme-factory",
+      "kind": "skill",
+      "name": "theme-factory",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:trust-system-human",
+      "kind": "skill",
+      "name": "trust-system-human",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:twilio-voice-system",
+      "kind": "skill",
+      "name": "twilio-voice-system",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:typescript-node",
+      "kind": "skill",
+      "name": "typescript-node",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:voice-synthesis-hub",
+      "kind": "skill",
+      "name": "voice-synthesis-hub",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:web-artifacts-builder",
+      "kind": "skill",
+      "name": "web-artifacts-builder",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:windows-api-mastery",
+      "kind": "skill",
+      "name": "windows-api-mastery",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:workflow-orchestration",
+      "kind": "skill",
+      "name": "workflow-orchestration",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:skill:xlsx",
+      "kind": "skill",
+      "name": "xlsx",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/advisor",
+      "kind": "slash-command",
+      "name": "/advisor",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/autonomy",
+      "kind": "slash-command",
+      "name": "/autonomy",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/enh",
+      "kind": "slash-command",
+      "name": "/enh",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/enh-off",
+      "kind": "slash-command",
+      "name": "/enh-off",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/enh-on",
+      "kind": "slash-command",
+      "name": "/enh-on",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/enh-show",
+      "kind": "slash-command",
+      "name": "/enh-show",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/fleet-standup",
+      "kind": "slash-command",
+      "name": "/fleet-standup",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/hygiene-pr",
+      "kind": "slash-command",
+      "name": "/hygiene-pr",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/ingest-docs",
+      "kind": "slash-command",
+      "name": "/ingest-docs",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/lane-check",
+      "kind": "slash-command",
+      "name": "/lane-check",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/reflect",
+      "kind": "slash-command",
+      "name": "/reflect",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/remote-control",
+      "kind": "slash-command",
+      "name": "/remote-control",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    },
+    {
+      "id": "inventory:slash-command:/self-improve",
+      "kind": "slash-command",
+      "name": "/self-improve",
+      "permissions": [
+        "discovery.read"
+      ],
+      "provider": "claude-user",
+      "roles": [
+        "all"
+      ],
+      "source": "C:\\ECHO_OMEGA_PRIME\\TOOLING_INVENTORY.md",
+      "status": "inventory-only-review-required"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Echo Fleet Role Powerpack plugin icon">
+
+<defs>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.42"/>
+  </filter>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<defs>
+  <linearGradient id="bg" x1="48" y1="24" x2="464" y2="488" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#171006"/><stop offset="1" stop-color="#4A2C05"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="38%" r="60%">
+    <stop offset="0" stop-color="#FFC857" stop-opacity="0.34"/><stop offset="1" stop-color="#FFC857" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)" filter="url(#shadow)"/>
+<rect x="16" y="16" width="480" height="480" rx="112" fill="url(#grid)"/>
+<circle cx="256" cy="220" r="205" fill="url(#halo)"/>
+<path d="M96 160 C132 76 210 48 256 48 C302 48 380 76 416 160" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="5" stroke-linecap="round"/>
+
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M256 142 L356 200 L356 314 L256 372 L156 314 L156 200 Z" stroke="#FFC857" stroke-opacity="0.42" stroke-width="8"/>
+  <path d="M256 196 L308 226 L308 286 L256 316 L204 286 L204 226 Z" fill="#1B1204" stroke="#FFF7DE" stroke-width="16"/>
+  <path d="M256 196 V142 M308 226 L356 200 M308 286 L356 314 M256 316 V372 M204 286 L156 314 M204 226 L156 200" stroke="#FFC857" stroke-width="12"/>
+  <g fill="#FFC857" stroke="#FFF7DE" stroke-width="8">
+    <circle cx="256" cy="126" r="25"/><circle cx="372" cy="194" r="25"/><circle cx="372" cy="322" r="25"/>
+    <circle cx="256" cy="388" r="25"/><circle cx="140" cy="322" r="25"/><circle cx="140" cy="194" r="25"/>
+  </g>
+  <path d="M226 265 L247 286 L291 238" stroke="#FFC857" stroke-width="18" filter="url(#glow)"/>
+</g>
+<path d="M176 430 C205 450 230 458 256 458 C282 458 307 450 336 430" fill="none" stroke="#FFC857" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+</svg>

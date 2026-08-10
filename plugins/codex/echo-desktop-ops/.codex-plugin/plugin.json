@@ -1,0 +1,31 @@
+{
+  "name": "echo-desktop-ops",
+  "version": "0.2.0+codex.20260809055354",
+  "description": "Detailed, production-safe Echo Desktop operations API, verification, evidence, and release gating.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "homepage": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "license": "Proprietary",
+  "skills": "./skills/",
+  "interface": {
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "brandColor": "#22B8CF",
+    "displayName": "Echo Desktop Ops",
+    "shortDescription": "Inspect, test, package, and gate Echo Desktop through one detailed API.",
+    "longDescription": "Provides bounded access to Echo Desktop source, Git, shared CLI history, Fleet Control, providers, MCP configuration, runtime processes, release artifacts, verification actions, redacted evidence reports, and deterministic release gating.",
+    "developerName": "ECHO OMEGA PRIME",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Detailed MCP operations API",
+      "Multi-CLI and Fleet Control inspection",
+      "Build, test, audit, and package verification",
+      "Redacted evidence and release gating"
+    ],
+    "defaultPrompt": "Use $desktop-full-verification to inspect Echo Desktop, run the appropriate verification profile, and return an evidence-backed readiness decision."
+  },
+  "mcpServers": "./.mcp.json"
+}
