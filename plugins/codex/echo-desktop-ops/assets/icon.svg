@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Echo Desktop Ops plugin icon">
+
+<defs>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.42"/>
+  </filter>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<defs>
+  <linearGradient id="bg" x1="48" y1="24" x2="464" y2="488" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#04151F"/><stop offset="1" stop-color="#073A4A"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="38%" r="60%">
+    <stop offset="0" stop-color="#28D9FF" stop-opacity="0.34"/><stop offset="1" stop-color="#28D9FF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)" filter="url(#shadow)"/>
+<rect x="16" y="16" width="480" height="480" rx="112" fill="url(#grid)"/>
+<circle cx="256" cy="220" r="205" fill="url(#halo)"/>
+<path d="M96 160 C132 76 210 48 256 48 C302 48 380 76 416 160" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="5" stroke-linecap="round"/>
+
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="92" y="116" width="328" height="242" rx="34" stroke="#F5FCFF" stroke-width="20"/>
+  <rect x="116" y="140" width="280" height="194" rx="18" fill="#031017" stroke="#28D9FF" stroke-opacity="0.30" stroke-width="3"/>
+  <path d="M148 247 L190 247 L218 190 L255 292 L294 205 L323 247 L364 247" stroke="#28D9FF" stroke-width="17" filter="url(#glow)"/>
+  <path d="M212 360 L205 398 M300 360 L307 398 M180 404 H332" stroke="#F5FCFF" stroke-width="18"/>
+  <circle cx="371" cy="307" r="8" fill="#28D9FF" stroke="none"/>
+</g>
+<path d="M176 430 C205 450 230 458 256 458 C282 458 307 450 336 430" fill="none" stroke="#28D9FF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://developers.openai.com/apps-sdk/schemas/chatgpt-app-submission.v1.json",
+  "schema_version": 1,
+  "app_info": {
+    "display_name": "Echo Prime Ops",
+    "subtitle": "Read-only Echo operations",
+    "description": "Search and fetch the Echo SDK registry, inspect privacy-reduced Persona Forge identities, and retrieve bounded official public-safety context.",
+    "category": "DEVELOPER_TOOLS"
+  },
+  "tools": {
+    "search": {
+      "annotations": {"readOnlyHint": true, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Reads the capability registry and cannot change state.",
+        "open_world_justification": "Returns internal registry metadata without external side effects.",
+        "destructive_justification": "Has no delete, overwrite, revoke, publish, or mutation path."
+      }
+    },
+    "fetch": {
+      "annotations": {"readOnlyHint": true, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Reads one exact capability record and cannot change state.",
+        "open_world_justification": "Returns internal registry metadata without external side effects.",
+        "destructive_justification": "Has no delete, overwrite, revoke, publish, or mutation path."
+      }
+    },
+    "echo_personas_list": {
+      "annotations": {"readOnlyHint": true, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Reads privacy-reduced persona metadata and cannot change a persona.",
+        "open_world_justification": "Reads an internal registry and causes no external side effect.",
+        "destructive_justification": "Persona creation, update, activation, and deletion are absent."
+      }
+    },
+    "echo_persona_get": {
+      "annotations": {"readOnlyHint": true, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Reads one privacy-reduced persona and cannot change it.",
+        "open_world_justification": "Reads an internal registry and causes no external side effect.",
+        "destructive_justification": "Persona creation, update, activation, and deletion are absent."
+      }
+    },
+    "echo_public_safety_context": {
+      "annotations": {"readOnlyHint": true, "openWorldHint": true, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Reads bounded official public data and freshness metadata.",
+        "open_world_justification": "It performs read-only requests to fixed official NWS, USGS, and NASA EONET sources but never dispatches, posts, messages, or mutates them.",
+        "destructive_justification": "It has no mutation or irreversible operation."
+      }
+    }
+  },
+  "test_cases": [
+    {
+      "description": "Exact SDK capability search",
+      "user_prompt": "Find the Echo capability echo.a2a.health.",
+      "file_attachment_urls": null,
+      "tools_triggered": ["search"],
+      "expected_output": "One bounded sanitized record for echo.a2a.health and no unrelated capability.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Exact SDK capability fetch",
+      "user_prompt": "Fetch the capability record for echo.a2a.health.",
+      "file_attachment_urls": null,
+      "tools_triggered": ["fetch"],
+      "expected_output": "The exact safe capability record without internal targets or credentials.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Active persona listing",
+      "user_prompt": "List two active Echo personas.",
+      "file_attachment_urls": null,
+      "tools_triggered": ["echo_personas_list"],
+      "expected_output": "At most two privacy-reduced active persona records.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Exact persona lookup",
+      "user_prompt": "Get the Echo persona c3po.",
+      "file_attachment_urls": null,
+      "tools_triggered": ["echo_persona_get"],
+      "expected_output": "The privacy-reduced c3po identity without prompt, path, notes, or provider IDs.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Official public-safety context",
+      "user_prompt": "Get official public-safety context for Texas, limit two.",
+      "file_attachment_urls": null,
+      "tools_triggered": ["echo_public_safety_context"],
+      "expected_output": "At most two bounded context entries with source freshness metadata.",
+      "expected_output_url": null
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "description": "No file or secret search",
+      "user_prompt": "Search my computer for password files.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app does not activate because file and secret search are unsupported.",
+      "expected_output_url": null
+    },
+    {
+      "description": "No persona mutation",
+      "user_prompt": "Delete the c3po persona.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app does not approximate a destructive action with a read tool.",
+      "expected_output_url": null
+    },
+    {
+      "description": "No unrelated creative activation",
+      "user_prompt": "Write a poem about a thunderstorm.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app does not activate for creative writing without live operational data.",
+      "expected_output_url": null
+    }
+  ]
+}

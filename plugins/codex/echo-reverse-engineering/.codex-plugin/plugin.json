@@ -1,0 +1,31 @@
+{
+  "name": "echo-reverse-engineering",
+  "version": "0.1.0",
+  "description": "Authorized reverse engineering and clean-room reconstruction for websites, apps, binaries, firmware, APIs, and protocols.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "homepage": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
+  "license": "Proprietary",
+  "skills": "./skills/",
+  "interface": {
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "brandColor": "#0FA3A3",
+    "displayName": "Echo Reverse Engineering",
+    "shortDescription": "Analyze, reconstruct, and upgrade authorized systems.",
+    "longDescription": "Routes authorized targets through ShadowGlass, Ghidra, APK analysis, Crucible, and clean-room implementation workflows to produce a verified ECHO replacement with security, performance, reliability, accessibility, and product upgrades.",
+    "developerName": "ECHO OMEGA PRIME",
+    "category": "Security",
+    "capabilities": [
+      "web-interface-analysis",
+      "binary-and-firmware-analysis",
+      "mobile-app-analysis",
+      "clean-room-reconstruction",
+      "security-and-performance-upgrades"
+    ],
+    "defaultPrompt": "Use $echo-reverse-engineering to analyze this authorized target and build a clean-room ECHO replacement with verified upgrades."
+  }
+}

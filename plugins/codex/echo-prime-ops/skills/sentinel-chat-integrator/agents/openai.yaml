@@ -1,0 +1,13 @@
+interface:
+  display_name: "Sentinel Chat Integrator"
+  short_description: "Integrate Sentinel Chat safely"
+  default_prompt: "Use $sentinel-chat-integrator to design, harden, and verify this Echo Sentinel Chat integration."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "echo-prime-ops"
+      description: "Read-only Echo capability, persona, and public-safety discovery."
+      transport: "streamable_http"
+      url: "https://mcp.echo-op.com/oauth-mcp-echo-prime-ops-v1"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+{
+  "connectors": [
+    {"id":"context-recall","capability":"echo.context.recall","description":"Retrieve fresh cross-session decisions and operational context","verbs":["search"],"roles":["innovator","enhancer","architect","observer","*"],"sensitivity":"internal","health":"green","broker":"sol-sdk","keywords":["memory","context","decision","retrieve","live"]},
+    {"id":"arcanum-search","capability":"echo.arcanum.search","description":"Find reusable templates and prior implementations","verbs":["search"],"roles":["innovator","architect","builder","enhancer","*"],"sensitivity":"internal","health":"green","broker":"sol-sdk","keywords":["arcanum","template","reuse","library","prior"]},
+    {"id":"knowledge-search","capability":"echo.knowledge.search","description":"Ground unfamiliar tools and moving facts in current docs","verbs":["search"],"roles":["innovator","researcher","architect","builder","*"],"sensitivity":"internal","health":"green","broker":"sol-sdk","keywords":["docs","knowledge","official","current","api"]},
+    {"id":"queue-list","capability":"echo.prompts.list","description":"Inspect pending and active build work","verbs":["list"],"roles":["innovator","commander","architect","builder","*"],"sensitivity":"internal","health":"green","broker":"sol-sdk","keywords":["queue","pending","build","mission","work"]},
+    {"id":"build-register","capability":"echo.builds.log","description":"Register completed work with evidence and tags","verbs":["log"],"roles":["innovator","builder","enhancer","publisher","*"],"sensitivity":"internal","health":"green","broker":"sol-sdk","keywords":["register","build","evidence","tests","ship"]},
+    {"id":"decision-persist","capability":"echo.context.remember","description":"Persist material decisions for future sessions","verbs":["remember"],"roles":["innovator","architect","commander","*"],"sensitivity":"internal","health":"green","broker":"sol-sdk","keywords":["persist","decision","memory","record"]}
+  ]
+}

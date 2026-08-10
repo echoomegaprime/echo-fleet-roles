@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Innovator Max plugin icon">
+
+<defs>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.42"/>
+  </filter>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<defs>
+  <linearGradient id="bg" x1="48" y1="24" x2="464" y2="488" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#07130B"/><stop offset="1" stop-color="#174221"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="38%" r="60%">
+    <stop offset="0" stop-color="#85FF75" stop-opacity="0.34"/><stop offset="1" stop-color="#85FF75" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)" filter="url(#shadow)"/>
+<rect x="16" y="16" width="480" height="480" rx="112" fill="url(#grid)"/>
+<circle cx="256" cy="220" r="205" fill="url(#halo)"/>
+<path d="M96 160 C132 76 210 48 256 48 C302 48 380 76 416 160" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="5" stroke-linecap="round"/>
+
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M256 104 C176 104 134 164 145 228 C151 266 174 286 195 312 C207 327 210 344 210 360 H302 C302 344 305 327 317 312 C338 286 361 266 367 228 C378 164 336 104 256 104 Z" fill="#06160A" stroke="#F6FFF4" stroke-width="18"/>
+  <path d="M202 242 C223 210 245 210 256 242 C267 274 289 274 310 242 C289 210 267 210 256 242 C245 274 223 274 202 242 Z" stroke="#85FF75" stroke-width="16" filter="url(#glow)"/>
+  <path d="M218 360 H294 M224 388 H288 M238 416 H274" stroke="#F6FFF4" stroke-width="15"/>
+  <path d="M256 72 V45 M162 104 L143 80 M350 104 L369 80 M117 205 H85 M395 205 H427" stroke="#85FF75" stroke-width="13"/>
+  <path d="M191 165 C222 134 290 134 321 165" stroke="#85FF75" stroke-opacity="0.65" stroke-width="10"/>
+</g>
+<path d="M176 430 C205 450 230 458 256 458 C282 458 307 450 336 430" fill="none" stroke="#85FF75" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+</svg>

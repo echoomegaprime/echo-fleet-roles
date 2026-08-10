@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "github:openai:skills",
+      "name": "OpenAI Codex Skills Catalog",
+      "kind": "skill-registry",
+      "source": "https://github.com/openai/skills",
+      "provider": "openai",
+      "license": "per-skill-license",
+      "status": "external-review-required",
+      "notes": "Repository is deprecated; use OpenAI Plugins for current examples. Retained as historical discovery source."
+    },
+    {
+      "id": "github:openai:plugins",
+      "name": "OpenAI Plugins",
+      "kind": "plugin-registry",
+      "source": "https://github.com/openai/plugins",
+      "provider": "openai",
+      "license": "per-plugin-license",
+      "status": "external-review-required",
+      "notes": "Current OpenAI plugin source referenced by the Codex skills catalog."
+    },
+    {
+      "id": "github:openai:role-specific-plugins",
+      "name": "OpenAI Role-Specific Plugins",
+      "kind": "plugin-registry",
+      "source": "https://github.com/openai/role-specific-plugins",
+      "provider": "openai",
+      "license": "per-plugin-license",
+      "status": "external-review-required",
+      "notes": "Role routing and focused workflow examples for plugins, apps, connectors, and MCP servers."
+    },
+    {
+      "id": "github:microsoft:mcp",
+      "name": "Microsoft MCP Catalog",
+      "kind": "connector-registry",
+      "source": "https://github.com/microsoft/mcp",
+      "provider": "microsoft",
+      "license": "MIT",
+      "status": "external-review-required",
+      "notes": "Catalog of official Microsoft MCP servers; individual servers and remote endpoints require separate review."
+    },
+    {
+      "id": "github:google:mcp",
+      "name": "Google MCP Catalog",
+      "kind": "connector-registry",
+      "source": "https://github.com/google/mcp",
+      "provider": "google",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "Official Google MCP server list, deployment guidance, and examples."
+    },
+    {
+      "id": "github:nvidia:skills",
+      "name": "NVIDIA Agent Skills",
+      "kind": "skill-registry",
+      "source": "https://github.com/nvidia/skills",
+      "provider": "nvidia",
+      "license": "per-skill-license",
+      "status": "external-review-required",
+      "notes": "Verified skills catalog with signatures, governance cards, and evaluation datasets."
+    },
+    {
+      "id": "github:modelcontextprotocol:servers",
+      "name": "MCP Reference Servers",
+      "kind": "connector-reference",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "provider": "modelcontextprotocol",
+      "license": "Apache-2.0-and-MIT",
+      "status": "external-review-required",
+      "notes": "Reference implementations; upstream explicitly warns they are educational examples, not production-ready by default."
+    },
+    {
+      "id": "github:modelcontextprotocol:registry",
+      "name": "Official MCP Registry Repository",
+      "kind": "connector-registry",
+      "source": "https://github.com/modelcontextprotocol/registry",
+      "provider": "modelcontextprotocol",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "Registry service source; registry metadata does not replace ECHO security review."
+    },
+    {
+      "id": "github:modelcontextprotocol:python-sdk",
+      "name": "MCP Python SDK",
+      "kind": "connector-sdk",
+      "source": "https://github.com/modelcontextprotocol/python-sdk",
+      "provider": "modelcontextprotocol",
+      "license": "MIT",
+      "status": "external-review-required",
+      "notes": "Official Python SDK for MCP clients and servers."
+    },
+    {
+      "id": "github:tech-leads-club:agent-skills",
+      "name": "Tech Leads Club Agent Skills Registry",
+      "kind": "skill-registry",
+      "source": "https://github.com/tech-leads-club/agent-skills",
+      "provider": "community",
+      "license": "MIT-and-CC-BY-4.0",
+      "status": "external-review-required",
+      "notes": "Includes a progressive-disclosure MCP catalog and audit tooling; third-party skills retain their own licenses."
+    },
+    {
+      "id": "github:internet-dot:awesome-codex-plugins",
+      "name": "Awesome Codex Plugins",
+      "kind": "community-catalog",
+      "source": "https://github.com/internet-dot/awesome-codex-plugins",
+      "provider": "community",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "Community discovery list; every linked plugin must be independently validated."
+    },
+    {
+      "id": "github:anthropics:skills",
+      "name": "Anthropic Agent Skills",
+      "kind": "skill-plugin-marketplace",
+      "source": "https://github.com/anthropics/skills",
+      "provider": "anthropic",
+      "license": "Apache-2.0-and-source-available",
+      "status": "external-review-required",
+      "notes": "Public skills and Claude Code marketplace source; individual document skills have distinct terms."
+    },
+    {
+      "id": "github:anthropics:claude-plugins-official",
+      "name": "Anthropic Claude Plugins Official",
+      "kind": "plugin-marketplace",
+      "source": "https://github.com/anthropics/claude-plugins-official",
+      "provider": "anthropic",
+      "license": "per-plugin-license",
+      "status": "external-review-required",
+      "notes": "Anthropic-managed directory of Claude Code plugins."
+    },
+    {
+      "id": "github:anthropics:knowledge-work-plugins",
+      "name": "Anthropic Knowledge Work Plugins",
+      "kind": "plugin-marketplace",
+      "source": "https://github.com/anthropics/knowledge-work-plugins",
+      "provider": "anthropic",
+      "license": "Apache-2.0",
+      "status": "external-review-required",
+      "notes": "Open source plugin repository for knowledge-work workflows."
+    },
+    {
+      "id": "github:microsoftdocs:agent-skills",
+      "name": "Microsoft Docs Agent Skills",
+      "kind": "skill-registry",
+      "source": "https://github.com/MicrosoftDocs/Agent-Skills",
+      "provider": "microsoft",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "Portable skills targeting Copilot, Claude, Codex, Cursor, Gemini CLI, and other agents."
+    },
+    {
+      "id": "github:microsoft:skills",
+      "name": "Microsoft Agent Skills and Plugins",
+      "kind": "skill-plugin-marketplace",
+      "source": "https://github.com/microsoft/skills",
+      "provider": "microsoft",
+      "license": "MIT",
+      "status": "external-review-required",
+      "notes": "Skills, MCP servers, custom agents, plugin examples, and test harnesses."
+    },
+    {
+      "id": "github:microsoftdocs:mcp",
+      "name": "Microsoft Learn MCP",
+      "kind": "connector-skill-plugin",
+      "source": "https://github.com/microsoftdocs/mcp",
+      "provider": "microsoft",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "Microsoft Learn MCP plus documentation and skill-creator skills."
+    },
+    {
+      "id": "github:openai:codex",
+      "name": "OpenAI Codex Repository",
+      "kind": "agent-runtime",
+      "source": "https://github.com/openai/codex",
+      "provider": "openai",
+      "license": "Apache-2.0",
+      "status": "external-review-required",
+      "notes": "Codex runtime, plugin and skill implementation references."
+    },
+    {
+      "id": "github:openai:openai-agents-python",
+      "name": "OpenAI Agents SDK Python",
+      "kind": "agent-sdk",
+      "source": "https://github.com/openai/openai-agents-python",
+      "provider": "openai",
+      "license": "MIT",
+      "status": "external-review-required",
+      "notes": "Official Agents SDK referenced by the OpenAI Agents skill."
+    },
+    {
+      "id": "github:openai:openai-agents-js",
+      "name": "OpenAI Agents SDK JavaScript",
+      "kind": "agent-sdk",
+      "source": "https://github.com/openai/openai-agents-js",
+      "provider": "openai",
+      "license": "MIT",
+      "status": "external-review-required",
+      "notes": "Official JavaScript Agents SDK reference."
+    },
+    {
+      "id": "github:openai:openai-mcpkit",
+      "name": "OpenAI MCPKit",
+      "kind": "connector-sdk",
+      "source": "https://github.com/openai/openai-mcpkit",
+      "provider": "openai",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "OpenAI MCP-related repository discovered from the provider organization index."
+    },
+    {
+      "id": "github:github:awesome-copilot",
+      "name": "GitHub Awesome Copilot",
+      "kind": "skill-registry",
+      "source": "https://github.com/github/awesome-copilot",
+      "provider": "github",
+      "license": "per-repository",
+      "status": "external-review-required",
+      "notes": "Community-created Copilot skills and customizations referenced by GitHub documentation."
+    }
+  ]
+}

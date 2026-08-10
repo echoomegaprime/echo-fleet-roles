@@ -1,0 +1,4 @@
+interface:
+  display_name: "Troubleshooting Role"
+  short_description: "Diagnose failures and recover production systems"
+  default_prompt: "Diagnose this failure, fix the root cause, and verify recovery."

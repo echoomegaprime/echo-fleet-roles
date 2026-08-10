@@ -1,0 +1,9 @@
+.app.json
+.env
+*.log
+*.zip
+*.sha256
+package-metadata.json
+__pycache__/
+.pytest_cache/
+artifacts/
