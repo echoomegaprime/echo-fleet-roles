@@ -1,6 +1,6 @@
 {
   "name": "echo-fleet-role-powerpack",
-  "version": "1.0.0",
+  "version": "1.0.0+codex.20260812192240",
   "description": "Thirty production ECHO fleet roles plus audited same-session role switching for Codex.",
   "author": {
     "name": "ECHO OMEGA PRIME",
@@ -9,7 +9,14 @@
   "homepage": "https://github.com/echoomegaprime/echo-fleet-roles",
   "repository": "https://github.com/echoomegaprime/echo-fleet-roles",
   "license": "Proprietary",
-  "keywords": ["echo", "fleet", "roles", "codex", "operations", "security"],
+  "keywords": [
+    "echo",
+    "fleet",
+    "roles",
+    "codex",
+    "operations",
+    "security"
+  ],
   "skills": "./skills/",
   "interface": {
     "composerIcon": "./assets/icon.png",
