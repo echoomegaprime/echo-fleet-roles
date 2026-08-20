@@ -11,6 +11,8 @@ from contextlib import closing
 from pathlib import Path
 from urllib.parse import quote
 
+from role_resolution import RoleResolution, compute_plugin_revision, parse_receipt, resolve_role
+
 
 def state_path() -> Path:
     configured = os.environ.get("ECHO_ROLE_STATE")
@@ -47,18 +49,33 @@ def _live_sol_role() -> str | None:
     )
 
 
-def _selected_role(registry: dict[str, object]) -> str:
+def _selected_role(
+    registry: dict[str, object],
+    hook_input: dict[str, object],
+    plugin_root: Path,
+) -> RoleResolution:
     roles = registry["roles"]
     assert isinstance(roles, dict)
-    candidates = (
-        _live_sol_role(),
-        _read_role(state_path(), "SELECT role FROM current_role WHERE singleton=1", ()),
-        str(registry["default_role"]),
+    child_receipt = hook_input.get("role_adoption_receipt")
+    if child_receipt is None:
+        child_receipt = parse_receipt(os.environ.get("ECHO_ROLE_ADOPTION_RECEIPT", ""))
+    if child_receipt is None:
+        receipt_path = os.environ.get("ECHO_ROLE_ADOPTION_RECEIPT_PATH", "").strip()
+        if receipt_path:
+            try:
+                child_receipt = json.loads(Path(receipt_path).read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                child_receipt = None
+    return resolve_role(
+        roles=set(roles),
+        default_role=str(registry["default_role"]),
+        live_sol_role=_live_sol_role(),
+        child_receipt=child_receipt,
+        plugin_role=_read_role(state_path(), "SELECT role FROM current_role WHERE singleton=1", ()),
+        child_session_id=str(hook_input.get("session_id") or os.environ.get("ECHO_CHILD_SESSION_ID") or "") or None,
+        child_revision=str(hook_input.get("child_revision") or os.environ.get("ECHO_CHILD_REVISION") or "") or None,
+        plugin_revision=compute_plugin_revision(plugin_root),
     )
-    for candidate in candidates:
-        if candidate in roles:
-            return candidate
-    return str(registry["default_role"])
 
 
 def _explicit_role(prompt: str, registry: dict[str, object]) -> str | None:
@@ -118,10 +135,11 @@ def main() -> int:
             event_name = "SessionStart"
         plugin_root = Path(os.environ.get("PLUGIN_ROOT", Path(__file__).resolve().parents[1]))
         registry = json.loads((plugin_root / "config" / "role_power_registry.json").read_text(encoding="utf-8"))
-        role_name = _selected_role(registry)
+        resolution = _selected_role(registry, hook_input, plugin_root)
+        role_name = resolution.role
         role = registry["roles"][role_name]
         context = (
-            f"ECHO live fleet role: {role_name}. Load and follow ${role['primary_skill']}. "
+            f"ECHO live fleet role: {role_name} (source: {resolution.source}). Load and follow ${role['primary_skill']}. "
             f"Available composed skills: {', '.join(role['composed_skills'])}. "
             f"Authorized capability families declared by the role: {', '.join(role['capability_families'])}. "
             "Use only tools and authority actually exposed by the current host."
